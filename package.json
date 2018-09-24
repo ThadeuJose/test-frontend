@@ -1,0 +1,27 @@
+{
+  "name": "Vertex-Digital-Frontend_Test",
+  "version": "1.0.0",
+  "description": "Site for Vertex Digital Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Thadeu José",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "vue": "^2.5.16",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.9",
+    "vuex": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

@@ -1,0 +1,21 @@
+<template>	
+    <div class="app">
+    	<menu></menu>
+    	{{ msg }}
+    </div>
+</template>
+
+<script>
+	import Menu from './Menu.vue'
+
+    export default {
+        data () {
+            return {
+                msg: 'Hello world!'
+            }   
+        },
+        components: { 
+        	Menu 
+        }
+    }
+</script>
